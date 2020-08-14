@@ -99,13 +99,10 @@
               </div>
             </div>
 
-
-
-            <!-- replace with Swiper JS -->
+          <!-- news articles -->
             <div class="card">
               <div class="card-block">
                 <h2>News Articles</h2>
-
 
                 <!-- Slider main container -->
                 <div class="swiper-container">
@@ -114,9 +111,9 @@
                     <!-- Slides -->
                     <div class="swiper-slide">
 
-                      <div class="card" style="width:200px">
+                      <div class="card" id="card-slide" style="width:200px">
                         <a href="https://www.sbs.com.au/nitv/article/2019/07/23/new-twitter-bot-reminds-users-capitalise-indigenous"  target="_blank">
-                        <img class="card-img-top" src="https://source.unsplash.com/8cMPxOqkLE8/200x200" alt="Card image">
+                        <img class="card-img-top" src="https://source.unsplash.com/8cMPxOqkLE8/600x400" alt="Card image">
                         <div class="card-body">
                           <h4 class="card-title" style ="text-align: center;">New Twitter bot reminds users to capitalise Indigenous</h4>
                           <!-- <p class="card-text">Some example text.</p> -->
@@ -128,9 +125,9 @@
   
                     <div class="swiper-slide">
 
-                      <div class="card" style="width:200px">
+                      <div class="card" id="card-slide" style="width:200px">
                         <a href="https://www.sbs.com.au/nitv/article/2019/07/23/new-twitter-bot-reminds-users-capitalise-indigenous"  target="_blank">
-                        <img class="card-img-top" src="https://source.unsplash.com/E3LpDeLz0ts/200x200" alt="Card image">
+                        <img class="card-img-top" src="https://source.unsplash.com/E3LpDeLz0ts/600x400" alt="Card image">
                         <div class="card-body">
                           <h4 class="card-title" style ="text-align: center;">Wild Black Women</h4>
                           <!-- <p class="card-text">Some example text.</p> -->
@@ -139,11 +136,11 @@
                       </div>
 
                     </div>
-                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide" id="card-slide">Slide 3</div>
                     ...
                   </div>
-                  <!-- If we need pagination -->
-                  <div class="swiper-pagination"></div>
+                  <!-- If we need scroll -->
+                  <div class="swiper-scrollbar"></div>
                 </div>
 
 
@@ -159,14 +156,10 @@
                 <script>
                   // swiper initialize 
                   var mySwiper = new Swiper('.swiper-container', {
-                    // Optional parameters  
-                    
-                    spaceBetween: 10,
-                    pagination: {
-                      el: '.swiper-pagination',
-                      clickable:true
+                    scrollbar: {
+                      el: '.swiper-scrollbar',
                     },
-                    // centeredSlides: true,
+
                   });
                 </script>
 
@@ -204,27 +197,7 @@
                   </div>
                 </div>
 
-                <!-- <div class="card">
-          <div class="card-block">
-            <h2>Work</h2>
-
-            <div class="work-experience">
-              <small class="date">2020</small>
-              <h3 class="h5 date-title">Regional Facilitator/Developer -  <a href="http://mashup-template.com" title="">Indigital</a></h3>
-              
-              <p>Fermentum leo vel orci porta non. Posuere sollicitudin aliquam ultrices sagittis. Aliquam faucibus purus in massa tempor nec.</p>
-            </div>
-     
-            <div class="work-experience">
-              <small class="date">2018-2019</small>
-              <h3 class="h5 date-title">Account Manager - <a href="https://www.captovate.com.au/" title="Create professionnal website">Captovate</a></h3>
-              
-
-              <p>Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Vitae ultricies leo integer malesuada nunc. Imperdiet proin fermentum leo vel orci porta non pulvinar neque. Fermentum leo vel orci porta non. Posuere sollicitudin aliquam ultrices sagittis. Aliquam faucibus purus in massa tempor nec.</p>
-            </div>
-
-          </div>
-        </div> -->
+                <!-- Chuck Letters of Support Here before language -->
 
                 <div class="card">
                   <div class="card-block">
@@ -248,8 +221,6 @@
                     </div>
                   </div>
                 </div>
-
-
 
                 <!-- <div class="card">
           <div class="card-block">
