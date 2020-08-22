@@ -6120,6 +6120,12 @@ label {
     }
   }
 
+
+.card-text {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
