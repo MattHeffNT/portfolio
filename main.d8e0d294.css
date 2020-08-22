@@ -6111,7 +6111,11 @@ label {
     }
     .swiper-button-prev {
         display: none !important;
-    }   
+    } 
+    
+    .card-text {
+        font-size:12px;
+    }
   }
 
 .video-container {
