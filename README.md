@@ -8,3 +8,5 @@ https://mattheffnt.github.io/portfolio/
 
 <li>Design customized from Mashup Templates: http://www.mashup-template.com/preview.html?template=energy </li>
 <li>Stock photos from Unsplash: https://source.unsplash.com/ </li>
+<li>Bootstrap 4 : https://getbootstrap.com/ </li>
+<li>SwiperJS: https://swiperjs.com/ </li>
